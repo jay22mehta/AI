@@ -1,0 +1,4 @@
+langchain-groq
+python-dotenv
+langchain-chroma>=0.1.2
+chromadb

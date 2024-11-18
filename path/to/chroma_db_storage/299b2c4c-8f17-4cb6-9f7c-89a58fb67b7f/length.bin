@@ -1,0 +1,66 @@
+ring or JSON format
+    ids=["jay_mehta_cv"],      # Unique ID for the document
+    metadatas=[{
+  "source": "user_cv",
+  "name": "Jay Mehta",
+  "location": "Paderborn, Germany",
+  "profession": "Data Scientist",
+  "experience": json.dumps([
+            {
+                "title": "Data Scientist",
+                "company": "BASF Agricultural Center",
+                "location": "Limburgerhof, Germany",
+                "duration": "12/2022 to Present",
+                "responsibilities": [
+                    "Improved decision-making by 20% through advanced statistical modeling.",
+                    "Specialized in machine learning algorithms and time-series analysis for sales forecasting and trend analysis.",
+                    "Developed user-friendly digital products integrating ML models (LLMs) into applications.",
+                    "Implemented Python-based AI frameworks for chatbots to streamline user interactions and enhance satisfaction.",
+                    "Collaborated on cloud development projects with a focus on CI/CD pipelines."
+                ]
+            },
+            {
+                "title": "Energy System Technique Project",
+                "organization": "Universität Paderborn",
+                "location": "Paderborn, Germany",
+                "duration": "10/2021 to 03/2022",
+                "responsibilities": [
+                    "Classified heat consumption across Dortmund's districts using machine learning models.",
+                    "Improved data analysis efficiency by 30% through QGIS integration.",
+                    "Boosted data analysis speed by 50% with advanced statistical models.",
+                    "Generated GIS maps to visualize heat consumption patterns."
+                ]
+            },
+            {
+                "title": "Energy Supply Structure of the Future Project",
+                "organization": "Universität Paderborn",
+                "location": "Paderborn, Germany",
+                "duration": "10/2021 to 03/2022",
+                "responsibilities": [
+                    "Developed predictive models for future temperature and weather conditions using time-series analysis.",
+                    "Applied data preprocessing techniques, including normalization and handling missing values.",
+                    "Built and compared machine learning models (ARIMA, LSTM) for accurate weather forecasting.",
+                    "Utilized Python libraries (Pandas, NumPy, Scikit-learn) and Matplotlib for data processing and visualization."
+                ]
+            }
+        ]),
+
+  "years_of_experience": 2,
+  "skills": ",".join(["AWS", "Azure", "Data Visualization", "Business Intelligence", "Scrum",
+    "CI/CD", "Computer Vision", "Data Science", "Docker", "Deep Learning",
+    "Git", "GitHub", "Machine Learning", "NLP", "Power BI", "Python",
+    "Scikit-learn", "SQL", "Statistical Analysis", "TensorFlow", "MongoDB",
+    "GCP", "Streamlit", "PyTorch", "Azure Databricks", "Azure ML"]),
+  "primary_industry": "Data Science and AI",
+  "project_focus_areas": ",".join(["Machine learning","Generative AI","Time-Series Forecasting"]),
+  "highest_degree": "Master of Science",
+  "institutions": ",".join(["Universität Paderborn", "Gujarat Technological University"]),
+  "github": "https://github.com/jay22mehta",
+  "years_in_current_role": "2 year",
+  "search_tags": ",".join(["Data Scientist", "Machine Learning", "AI Development"]),
+  "languages": ",".join(["English: Proficient", "German: Intermediate"])
+}
+]  # Optional metadata
+)
+
+print("CV stored in ChromaDB successfully!")"Statistical Analysis\", \"TensorFlow\", \"MongoDB\",\n    \"GCP\", \"Streamlit\", \"PyTorch\", \"Azure Databricks\", \"Azure ML\"]),\n  \"primary_industry\": \"Data Science and AI\",\n  \"project_focus_areas\": \",\".join([\"Machine learning\",\"Generative AI\",\"Time-Series Forecasting\"]),\n  \"highest_degree\": \"Master of Science\",\n  \"institutions\": \",\".join([\"Universit�t Paderborn\", \"Gujarat 
